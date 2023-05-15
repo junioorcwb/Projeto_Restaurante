@@ -1,0 +1,82 @@
+
+# ### Listar todos os clientes
+# GET http://localhost:3000/cliente
+
+# ### Cadastrar um novo cliente
+# POST http://localhost:3000/cliente
+# Content-Type: application/json
+
+# {
+#   "nome": "Cliente Teste",
+#   "email": "cliente@teste.com",
+#   "senha": "123456"
+# }
+
+# ### Buscar um cliente específico
+# GET http://localhost:3000/clientes/1
+
+# ### Listar todas as avaliações
+# GET http://localhost:3000/avaliacoes
+
+# ### Cadastrar uma nova avaliação
+# POST http://localhost:3000/avaliacoes
+# Content-Type: application/json
+
+# {
+#   "restaurante_id": 1,
+#   "cliente_id": 1,
+#   "pontuacao": 5,
+#   "comentario": "Excelente comida!"
+# }
+
+# ### Buscar uma avaliação específica
+# GET http://localhost:3000/avaliacoes/1
+
+# ### Listar todas as marmitex
+# GET http://localhost:3000/marmitex
+
+# ### Cadastrar uma nova marmitex
+# POST http://localhost:3000/marmitex
+# Content-Type: application/json
+
+# {
+#   "nome": "Marmitex Teste",
+#   "descricao": "Descrição da marmitex",
+#   "preco": 19.99
+# }
+
+# ### Buscar uma marmitex específica
+# GET http://localhost:3000/marmitex/1
+
+# ### Listar todos os pedidos
+# GET http://localhost:3000/pedidos
+
+# ### Cadastrar um novo pedido
+# POST http://localhost:3000/pedidos
+# Content-Type: application/json
+
+# {
+#   "cliente_id": 1,
+#   "marmitex_id": 1,
+#   "quantidade": 2,
+#   "data_pedido": "2023-05-15"
+# }
+
+# ### Buscar um pedido específico
+# GET http://localhost:3000/pedidos/1
+
+# ### Listar todos os restaurantes
+# GET http://localhost:3000/restaurantes
+
+# ### Cadastrar um novo restaurante
+# POST http://localhost:3000/restaurantes
+# Content-Type: application/json
+
+# {
+#   "nome": "Restaurante Teste",
+#   "endereco": "Rua Teste, 123",
+#   "telefone": "(11) 12345-6789"
+# }
+
+# ### Buscar um restaurante específico
+# GET http://localhost:3000/restaurantes/1
